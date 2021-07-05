@@ -23,6 +23,4 @@ public class Product {
     @Column(name = "create_time" , nullable = false)
     private LocalDateTime createTime;
 
-    public void setCreateTime(LocalDateTime now) {
-    }
 }
